@@ -9,8 +9,8 @@ const Login = () => {
             <form className='login-form'>
                 <h2>Sign Up</h2>
                 <input type="text" placeholder='username' className="form-input" required />
-                <input type="email" placeholder='Email address' className="form-input" />
-                <input type="password" placeholder='password' className="form-input" />
+                <input type="email" placeholder='Email address' className="form-input" required/>
+                <input type="password" placeholder='password' className="form-input" required/>
                 <button type='submit'>Sign Up</button>
 
                 <div className="login-term">
@@ -19,7 +19,7 @@ const Login = () => {
                 </div>
 
                 <div className="login-forgot">
-
+                    <p className="login-toggle">Already have an account <span>Click here</span></p>
                 </div>
             </form>
 
