@@ -11,7 +11,13 @@ const LeftSidebar = () => {
             <img src={assets.menu_icon} alt="" />
           </div>
         </div>
-        <div className="ls-search"></div>
+        <div className="ls-search">
+          <img src={assets.search_icon} alt="" />
+          <input type="text" placeholder='Search here..'/>
+        </div>
+      </div>
+      <div>
+        
       </div>
       
     </div>
