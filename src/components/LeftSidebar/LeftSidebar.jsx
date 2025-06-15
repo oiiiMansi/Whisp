@@ -19,6 +19,10 @@ const LeftSidebar = () => {
       <div className="ls-list">
         <div className="friends">
           <img src={assets.profile_img} alt="" />
+          <div>
+            <p>Priya Nehra</p>
+            <span></span>
+          </div>
         </div>
       </div>
 
