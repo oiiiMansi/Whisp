@@ -1,5 +1,7 @@
 import React from 'react'
 import './LeftSidebar.css'
+import assets from '../../assets/assets';
+
 
 const LeftSidebar = () => {
   return (
@@ -20,8 +22,8 @@ const LeftSidebar = () => {
         <div className="friends">
           <img src={assets.profile_img} alt="" />
           <div>
-            <p>Priya Nehra</p>
-            <span></span>
+            <p>Mansi Saini</p>
+            <span>Hello, How are you</span>
           </div>
         </div>
       </div>
