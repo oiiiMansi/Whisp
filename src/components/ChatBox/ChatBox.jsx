@@ -7,7 +7,7 @@ const ChatBox = () => {
     <div className='chat-box'>
       <div className="chat-user">
         <img src={assets.profile_img} alt="" />
-        <p>Billy Butcher <img src={assets.green_dot} alt="" /></p>
+        <p>Billy Butcher <img className='dot' src={assets.green_dot} alt="" /></p>
         <img src={assets.help_icon} alt="" />
       </div>
       
