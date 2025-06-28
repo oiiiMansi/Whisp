@@ -70,3 +70,9 @@
     display: flex;
     flex-direction: column-reverse;
 }
+
+.s-msg div img,.r-msg div img{
+    width: 27px;
+    aspect-ratio: 1/1;
+    border-radius: 50px;
+}
