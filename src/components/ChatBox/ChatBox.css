@@ -104,3 +104,8 @@
 .r-msg .msg{
     border-radius: 8px 8px 8px 0px;
 }
+
+.s-msg div , .r-msg div{
+    text-align: center;
+    font-size: 9px;
+}
