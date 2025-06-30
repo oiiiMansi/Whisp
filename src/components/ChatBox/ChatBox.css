@@ -100,3 +100,7 @@
     border-radius: 8px 8px 0px 8px;
     margin-bottom: 30px;
 }
+
+.r-msg .msg{
+    border-radius: 8px 8px 8px 0px;
+}
