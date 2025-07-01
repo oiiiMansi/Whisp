@@ -13,3 +13,9 @@
 img.dot{
   width: 15px !important;
 }
+
+.msg-img{
+  max-width: 230px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
