@@ -8,7 +8,7 @@ const RightSidebar = () => {
     <div className='rs'>
       <div className="rs-profile">
         <img src={assets.profile_img} alt="" />
-        <h3>Billy Butcher <img src={assets.green_dot} alt="" /></h3>
+        <h3>Billy Butcher <img src={assets.green_dot} className='dot' alt="" /></h3>
         <p>Hey there, i am using Whisp</p>
       </div>
       <hr />
