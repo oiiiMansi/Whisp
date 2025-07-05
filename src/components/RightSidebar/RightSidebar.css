@@ -35,3 +35,8 @@
     opacity: 80%;
     font-weight: 300;
 }
+
+.rs hr{
+    border-color: #ffffff50;
+    margin: 15px 0px;
+}
