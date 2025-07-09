@@ -13,7 +13,10 @@ const ProfileUpdate = () => {
             Upload Profile image
           </label>
           <input type="text" placeholder='Your Name' required/>
+          <textarea placeholder='Write Profile Bio' required></textarea>
+          <button type='submit'>Save</button>
         </form>
+        <img src={assets.logo_icon} alt="" />
       </div>
     </div>
   )
