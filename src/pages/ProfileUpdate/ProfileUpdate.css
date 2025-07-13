@@ -19,4 +19,6 @@
 .profile-pic{
     max-width: 160px;
     aspect-ratio: 1/1;
+    margin: 20px auto;
+    border-radius: 50%;
 }
