@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './ProfileUpdate.css'
 import assets from '../../assets/assets';
 const ProfileUpdate = () => {
+
+  const [image,setImage] = useState(false);
+
   return (
     <div className='profile'>
       <div className="profile-container">
