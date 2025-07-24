@@ -1,3 +1,4 @@
+// Import the function to initialize Firebase
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
